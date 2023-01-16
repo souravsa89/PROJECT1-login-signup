@@ -9,6 +9,7 @@ function Register() {
   } else {
     initialValues = JSON.parse(localStorage.getItem("user"));
   }
+
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -34,36 +35,20 @@ function Register() {
       }
       return false;
     }
-    // email check
+
     if (emailExists(email)) {
       alert("Email is already exist");
+      // navigate("../Login");
     } else {
       setUserData([...userData, newUser]);
       localStorage.setItem("user", JSON.stringify(userData));
     }
-    function usernameExists(username) {
-      for (let i = 0; i < userData.length; i++) {
-        if (userData[i].username === username) {
-          return true;
-        }
-      }
-      return false;
-    }
-    // username check
-    if (usernameExists(username)) {
-      alert("Username is already taken");
-    } else {
-      setUserData([...userData, newUser]);
-      localStorage.setItem("user", JSON.stringify(userData));
-    }
+
     setUsername("");
     setEmail("");
     setPassword("");
     alert("registered successfully");
   };
-  useEffect(() => {
-    localStorage.setItem("user", JSON.stringify(userData));
-  }, [userData]);
 
   return (
     <>

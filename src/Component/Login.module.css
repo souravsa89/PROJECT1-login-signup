@@ -1,17 +1,19 @@
 .formContainer
 {
+    
     width: 100%;
     height:calc(100vh - 75px);
     background: #0575E6;  
     background: -webkit-linear-gradient(to right, #021B79, #0575E6); 
     background: linear-gradient(to right, #021B79, #0575E6); 
-
     display: grid;
-    place-items: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .form
 {
+  
     width: 350px;
     max-width: 350px;
     height: 300px;

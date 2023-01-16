@@ -11,16 +11,18 @@ function Login() {
     e.preventDefault();
     const userData = JSON.parse(localStorage.getItem("user"));
 
-    const user = userData.find((user) => user.username === input.username);
-    if (user) {
-      if (user.password === input.password) {
-        alert("login successfull");
-      } else {
-        alert("invalid password");
-      }
+    const found = userData.find(
+      (user) =>
+        user.username === input.username && user.password === input.password
+    );
+    if (found) {
+      // alert(Welcome`${found.username}`);
+
+      alert("login successfull");
     } else {
-      alert("User undefined");
+      alert("invalid password");
     }
+
     setInput("");
   };
   return (
@@ -49,9 +51,6 @@ function Login() {
               // required
               placeholder="Username"
             />
-            {/* {errors.username && (
-              <span style={{ color: " red" }}>*Username*is mandatory</span>
-            )} */}
           </div>
 
           <div className={login.password}>

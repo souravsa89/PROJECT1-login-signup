@@ -18,6 +18,7 @@ function Home() {
               <figcaption>
                 <p>Age: 25</p>
                 <p>Location: India</p>
+                <br />
               </figcaption>
             </figure>
           </div>

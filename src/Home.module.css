@@ -35,8 +35,6 @@ figcaption p{
     column-width: 160px;
     column-gap: 3rem;
     margin-top: 4rem;
-    
-    
 }
 
 .hobbyContent{
@@ -56,24 +54,30 @@ figcaption p{
     margin-bottom: 1rem;
 }
 
-@media (max-width: 1007px) {
+@media (max-width: 1024px) {
     .container{
         text-align: center;
     }
     .heroSection {
     flex-direction: column;
     }
-    
+    .heroText h2{
+        text-align: center;
+        
+    }
     .heroImage {
     margin: 1   rem auto;
     }
     
     .skills {
     column-count: 1;
-    margin:1.5rem ;
+    margin:1rem ;
 
     }
     .hobbyContent{
         margin: 10px;
+    }
+    .hobbyContent p{
+        text-align: center;
     }
     }
