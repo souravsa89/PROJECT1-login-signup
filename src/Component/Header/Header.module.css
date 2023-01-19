@@ -41,6 +41,11 @@ nav li a{
 .btn i {
     font-size: 2rem;
   }
+
+  .link{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
  /* .logo{
     font-size: 100px;
   } */
@@ -67,6 +72,12 @@ nav li a{
       transform: translateY(-100vh);
       
     }
+
+    .link{
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
    .text{
     color: #fff;
     font-size: 22px;

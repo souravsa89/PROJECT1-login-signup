@@ -21,7 +21,8 @@
 }
 
 .heroText{
-    padding: 0 1rem;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
     text-align: justify;
     font-family: "Gill Sans", sans-serif;
 }

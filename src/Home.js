@@ -23,7 +23,7 @@ function Home() {
             </figure>
           </div>
           <div className={home.heroText}>
-            <h2>Harsh Kajale</h2>
+            <h2 style={{padding:5}}>SOURAV SAKHARI</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

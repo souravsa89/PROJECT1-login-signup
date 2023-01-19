@@ -21,7 +21,7 @@ function AboutUs() {
             </figure>
           </div>
           <div className={about.heroText}>
-            <h2>Harsh Kajale</h2>
+            <h2>SOURAV SAKHARI</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

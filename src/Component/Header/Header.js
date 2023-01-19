@@ -56,8 +56,8 @@ function Header() {
           <img
             style={{ borderRadius: "50px", cursor: "pointer" }}
             src="https://media.istockphoto.com/id/1332100919/vector/man-icon-black-icon-person-symbol.jpg?s=612x612&w=0&k=20&c=AVVJkvxQQCuBhawHrUhDRTCeNQ3Jgt0K1tXjJsFy1eg="
-            height="40"
-            width="40"
+            height="30"
+            width="30"
             alt="Profile"
             onClick={() => setShowInput(!showInput)}
           />
